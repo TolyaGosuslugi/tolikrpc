@@ -71,7 +71,7 @@ while True:
                 client.update(
                     state="Half-Life 2",
                     details="Playing",
-                    large_image="https://logodix.com/logo/1687700.png",
+                    large_image="https://steamsolo.com/wp-content/uploads/2021/07/how-to-keep-your-car-in-chapter-11-sandtraps-half-life-2.jpg",
                     large_text=rndm_text,
                 )
                 
