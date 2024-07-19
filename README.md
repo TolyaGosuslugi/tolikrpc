@@ -1,4 +1,4 @@
-# TolikRPC - just a simple RPC status
+# TolikRPC - just a Discord RPC status
 idk wth I made, but it's funny
 
 # Installation
