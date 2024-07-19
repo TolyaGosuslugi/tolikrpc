@@ -29,13 +29,19 @@ chill_img = random.choice(["https://i.imgur.com/v0SifzJ.gif", "https://i.imgur.c
 rndm_text = random.choice(["nya :3", "meow :D", "I'm a cute person", "u are so best", "suka blyat vodka", "tolik was here"])
 
 client = Presence(1089811981009178775)
-
 client.connect()
 
-while True:
-    for p in psutil.process_iter():
+def check(processName):
+    for proc in psutil.process_iter():
         try:
-            if p.name() == "csgo.exe":
+            if processName.lower() in proc.name().lower():
+                return True
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            pass
+    return False;
+
+while True:
+            if check("csgo.exe"):
                 client.update(
                     state="Counter-Strike: Global Offensive",
                     details="Playing",
@@ -43,7 +49,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "cs2.exe":
+            elif check("cs2.exe"):
                 client.update(
                     state="Counter-Strike 2",
                     details="Playing",
@@ -51,7 +57,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "hl.exe":
+            elif check("hl.exe"):
                 client.update(
                     state="Half-Life",
                     details="Playing",
@@ -59,7 +65,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "ets2.exe":
+            elif check("ets2.exe"):
                 client.update(
                     state="Euro Truck Simulator 2",
                     details="Playing",
@@ -67,7 +73,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "hl2.exe":
+            elif check("hl2.exe"):
                 client.update(
                     state="Half-Life 2",
                     details="Playing",
@@ -75,7 +81,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "HenryStikmin.exe":
+            elif check("HenryStickmin.exe"):
                 client.update(
                     state="The Henry Stickmin Collection",
                     details="Playing",
@@ -83,7 +89,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "gmod.exe":
+            elif check("gmod.exe"):
                 client.update(
                     state="Garry's Mod",
                     details="Playing",
@@ -91,7 +97,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "The Jackbox Party Pack 2.exe":
+            elif check("The Jackbox Party Pack 2.exe"):
                 client.update(
                     state="The Jackbox Party Pack 2",
                     details="Playing",
@@ -99,7 +105,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "The Jackbox Party Pack 3.exe":
+            elif check("The Jackbox Party Pack 3.exe"):
                 client.update(
                     state="The Jackbox Party Pack 3",
                     details="Playing",
@@ -107,7 +113,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "The Jackbox Party Pack 4.exe":
+            elif check("The Jackbox Party Pack 4.exe"):
                 client.update(
                     state="The Jackbox Party Pack 4",
                     details="Playing",
@@ -115,7 +121,7 @@ while True:
                     large_text=rndm_text,
                 )
             
-            if p.name() == "The Jackbox Party Pack 5.exe":
+            elif check("The Jackbox Party Pack 5.exe"):
                 client.update(
                     state="The Jackbox Party Pack 5",
                     details="Playing",
@@ -123,7 +129,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "The Jackbox Party Pack 6.exe":
+            elif check("The Jackbox Party Pack 6.exe"):
                 client.update(
                     state="The Jackbox Party Pack 6",
                     details="Playing",
@@ -131,7 +137,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "The Jackbox Party Pack 7.exe":
+            elif check("The Jackbox Party Pack 7.exe"):
                 client.update(
                     state="The Jackbox Party Pack 7",
                     details="Playing",
@@ -139,7 +145,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "Teardown.exe":
+            elif check("Teardown.exe"):
                 client.update(
                     state="Teardown",
                     details="Playing",
@@ -147,7 +153,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "Lethal Company.exe":
+            elif check("Lethal Company.exe"):
                 client.update(
                     state="Lethal Company",
                     details="Playing",
@@ -155,7 +161,7 @@ while True:
                     large_text=rndm_text,
                 )
                 
-            if p.name() == "sandbox.exe":
+            elif check("sandbox.exe"):
                 client.update(
                     state="Sand:box",
                     details="Playing",
@@ -169,6 +175,4 @@ while True:
                     large_image=chill_img,
                     large_text=rndm_text,
                 )
-        except psutil.Error:
-            pass
 time.sleep(3)
