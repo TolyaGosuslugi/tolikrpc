@@ -77,5 +77,10 @@
 	"FL64.exe": {
 		"name": "FL Studio",
 		"icon": "https://i.imgur.com/dbjwKGC.png"
+	},
+	
+	"Teardown.exe": {
+		"name": "Teardown",
+		"icon": "https://static.wikia.nocookie.net/logopedia/images/7/79/Teardown_2022_%28Icon%29.png/revision/latest?cb=20221215232436"
 	}
 }
