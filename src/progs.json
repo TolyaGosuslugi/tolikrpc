@@ -1,0 +1,81 @@
+{
+	"csgo.exe": {
+		"name": "Counter-Strike: Global Offensive",
+		"icon": "https://sun6-23.userapi.com/s/v1/if1/t6I2sTc5NiFMyBPWQR0j7g4Yd7WIGmvhm8eIe0qCkcwBQMI8dBmDXbjB5n6gNcnbSsN0V0Fw.jpg?size=1487x1487&quality=96&crop=203,232,1487,1487&ava=1"
+	},
+	
+	"cs2.exe": {
+		"name": "Counter-Strike 2",
+		"icon": "https://i3.wp.com/media.moddb.com/images/downloads/1/210/209737/b10224ae75edd5debd06c44662cbcb30.png"
+	},
+	
+	"hl.exe": {
+		"name": "Half-Life",
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Half-Life_lambda_logo.svg/1200px-Half-Life_lambda_logo.svg.png"
+	},
+	
+	"ets2.exe": {
+		"name": "Euro Truck Simulator 2",
+		"icon": "https://img.icons8.com/?size=256&id=MITxSnflsk3j&format=png"
+	},
+	
+	"hl2.exe": {
+		"name": "Half-Life 2",
+		"icon": "https://steamsolo.com/wp-content/uploads/2021/07/how-to-keep-your-car-in-chapter-11-sandtraps-half-life-2.jpg"
+	},
+	
+	"HenryStickmin.exe": {
+		"name": "The Henry Stickmin Collection",
+		"icon": "https://i.imgur.com/2LcKFZv.png"
+	},
+	
+	"gmod.exe": {
+		"name": "Garry's Mod",
+		"icon": "https://sun6-22.userapi.com/s/v1/ig2/Q_uI0Sfk-bEHoR3-tTUxlrRjsDQbVsFzBjj8xSgFCY8poRErcFGCEm4ZuC6J_fXueTQsUL1SeREZmGGFfSUdVuah.jpg?size=1026x1026&quality=96&crop=1,1,1026,1026&ava=1"
+	},
+	
+	"The Jackbox Party Pack 2.exe": {
+		"name": "The Jackbox Party Pack 2",
+		"icon": "https://i.imgur.com/LXKEFLU.png"
+	},
+	"The Jackbox Party Pack 3.exe": {
+		"name": "The Jackbox Party Pack 3",
+		"icon": "https://i.imgur.com/RTrlyx8.png"
+	},
+	"The Jackbox Party Pack 4.exe": {
+		"name": "The Jackbox Party Pack 4",
+		"icon": "https://i.imgur.com/AEvHZ1z.png"
+	},
+	"The Jackbox Party Pack 5.exe": {
+		"name": "The Jackbox Party Pack 5",
+		"icon": "https://i.imgur.com/ZaP12sS.png"
+	},
+	"The Jackbox Party Pack 6.exe": {
+		"name": "The Jackbox Party Pack 6",
+		"icon": "https://i.imgur.com/ub93Ywq.png"
+	},
+	"The Jackbox Party Pack 7.exe": {
+		"name": "The Jackbox Party Pack 7",
+		"icon": "https://i.imgur.com/L0BeN9g.png"
+	},
+	
+	"Lethal Company.exe": {
+		"name": "Lethal Company",
+		"icon": "https://cdn2.steamgriddb.com/icon/5d29c687a58bc919bd4b28609e2f7134/32/512x512.png"
+	},
+	
+	"sandbox.exe": {
+		"name": "Sand:box",
+		"icon": "https://i.imgur.com/7x0jFUn.png"
+	},
+	
+	"Solitaire.exe": {
+		"name": "Microsoft Solitaire",
+		"icon": "https://cdn.discordapp.com/app-assets/1221433085829185598/1221434157293633586.png"
+	},
+	
+	"FL64.exe": {
+		"name": "FL Studio",
+		"icon": "https://i.imgur.com/dbjwKGC.png"
+	}
+}
