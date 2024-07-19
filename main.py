@@ -180,6 +180,14 @@ while True:
             large_text=rndm_text,
         )
     
+    elif check("FL64.exe"):
+        client.update(
+            state="FL Studio",
+            details="Playing",
+            large_image="https://i.imgur.com/dbjwKGC.png",
+            large_text=rndm_text,
+        )
+    
     else:
         client.update(
             details="Chilling",

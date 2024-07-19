@@ -17,7 +17,7 @@ or double-click on main.py in your file manager
 <img src="https://raw.githubusercontent.com/TolyaGosuslugi/tolikrpc/main/img/tjpp4.png">
 <img src="https://raw.githubusercontent.com/TolyaGosuslugi/tolikrpc/main/img/hl2.png">
 
-# Supported games
+# Supported programms
 #### Counter-Strike: Global Offensive
 #### Counter-Strike 2
 #### Half-Life
@@ -30,3 +30,4 @@ or double-click on main.py in your file manager
 #### Lethal Company
 #### Sand:box
 #### Microsoft Solitaire (from Windows 7)
+#### FL Studio x64
